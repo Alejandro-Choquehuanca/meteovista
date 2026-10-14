@@ -8,7 +8,7 @@
 "location.country": "País",
 "location.city": "Ciudad",
 "location.countryPlaceholder": "Selecciona un país",
-"location.cityPlaceholder": "Primero selecciona un país",
+"location.cityPlaceholder": "Primero selecciona una ciudad",
 "location.search": "Consultar clima",
 
 "weather.initialMessage": "Selecciona un país y una ciudad para ver el pronóstico.",
