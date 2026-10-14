@@ -1,0 +1,36 @@
+.current-weather-card {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+}
+
+.current-weather-card h3 {
+  color: #1d4ed8;
+}
+
+.current-weather-card .current-temperature {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #172033;
+}
+
+.forecast-card {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #dbe5f0;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.forecast-card .forecast-date {
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+.forecast-card .forecast-icon {
+  font-size: 1.8rem;
+}

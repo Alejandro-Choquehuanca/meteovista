@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteovista</title>
+
+    <link rel = "stylesheet" href = "src/presentation/styles/global.css">
+
+</head>
+
+<body>
+<main class = "weather-app">
+
+    <header class = "app-header">
+        <div>
+            <p class = "app-subtitle" data-i18n="app.subtitle"> Tu clima, donde estés </p>
+            <h1 class = "app-title" data-i18n="app.title"> Meteovista </h1>
+        </div>
+
+<!-- Selector cambiará toda la interfaz entre español e inglés   -->
+        <label class = "language-selector" for = "language">
+            <span data-i18n="language.label"> Idioma</span>
+        
+        <select id = "language" name = "language">
+                <option value="ES">Español</option>
+                <option value="EN">English</option>
+        </select>
+
+        </label>
+    </header>
+
+<!-- Zona para elegir el lugar que se desea consultar-->
+<section class = "location-section" aria-labelledby="location-title">
+    <h2 id = "location-title" data-i18n="location.title"> Busca el clima de una ciudad </h2>
+
+    <div class = "location-form"> 
+        <label for = "country" data-i18n="location.country"> País </label>
+
+        <!-- las opciones de paises se agregarón con javascript-->
+
+        <select id="country" name="country">
+            <option value="" data-i18n="location.countryPlaceholder">
+            Selecciona un país
+            </option>
+        </select>
+<label for="city" data-i18n="location.city">
+            Ciudad
+        </label>
+
+        <!-- Permanecerá deshabilitado hasta seleccionar un país. -->
+    <select id="city" name="city" disabled>
+            <option value="" data-i18n="location.cityPlaceholder">
+    Primero selecciona un país
+            </option>
+        </select>
+
+        <button id="search-button" type="button" data-i18n="location.search">
+            Consultar clima
+        </button>
+        </div>
+    </section>
+
+    <!-- Aquí se mostrará el resultado del clima actual. -->
+    <section id="current-weather" class="current-weather" aria-live="polite">
+        <p data-i18n="weather.initialMessage">
+        Selecciona un país y una ciudad para ver el pronóstico.
+        </p>
+    </section>
+
+    <!-- Aquí se insertarán las tarjetas del pronóstico de 16 días. -->
+    <section class="forecast-section" aria-labelledby="forecast-title">
+        <h2 id="forecast-title" data-i18n="forecast.title">
+        Pronóstico de 16 días
+        </h2>
+
+        <div id="forecast-list" class="forecast-list"></div>
+    </section>
+    </main>
+
+    <!-- type="module" permitirá importar archivos JavaScript cuando los creemos. -->
+    <script type="module" src="./src/app/main.js"></script>
+</body>
+</html>

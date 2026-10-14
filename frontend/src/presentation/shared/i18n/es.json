@@ -1,0 +1,53 @@
+{
+"app.title": "MeteoVista",
+"app.subtitle": "Tu clima, donde estés",
+
+"language.label": "Idioma",
+
+"location.title": "Busca el clima de una ciudad",
+"location.country": "País",
+"location.city": "Ciudad",
+"location.countryPlaceholder": "Selecciona un país",
+"location.cityPlaceholder": "Primero selecciona un país",
+"location.search": "Consultar clima",
+
+"weather.initialMessage": "Selecciona un país y una ciudad para ver el pronóstico.",
+"weather.current": "Clima actual",
+"weather.temperature": "Temperatura",
+"weather.humidity": "Humedad",
+"weather.wind": "Viento",
+"weather.feelsLike": "Sensación",
+"weather.rain": "Lluvia",
+"weather.cloudCover": "Nubes",
+
+"forecast.title": "Pronóstico de 16 días",
+
+"status.loading": "Cargando pronóstico...",
+"status.selectCity": "Ahora selecciona una ciudad para consultar el clima.",
+"status.searching": "Consultando el clima de {city}, {country}...",
+"status.error": "No fue posible obtener el pronóstico. Inténtalo nuevamente.",
+
+"weatherCode.clearSky": "Cielo despejado",
+"weatherCode.mainlyClear": "Mayormente despejado",
+"weatherCode.partlyCloudy": "Parcialmente nublado",
+"weatherCode.overcast": "Nublado",
+"weatherCode.fog": "Niebla",
+"weatherCode.rimeFog": "Niebla con escarcha",
+"weatherCode.lightDrizzle": "Llovizna ligera",
+"weatherCode.moderateDrizzle": "Llovizna moderada",
+"weatherCode.denseDrizzle": "Llovizna intensa",
+"weatherCode.lightRain": "Lluvia ligera",
+"weatherCode.moderateRain": "Lluvia moderada",
+"weatherCode.heavyRain": "Lluvia intensa",
+"weatherCode.lightSnow": "Nieve ligera",
+"weatherCode.moderateSnow": "Nieve moderada",
+"weatherCode.heavySnow": "Nieve intensa",
+"weatherCode.lightRainShowers": "Chubascos ligeros",
+"weatherCode.moderateRainShowers": "Chubascos moderados",
+"weatherCode.heavyRainShowers": "Chubascos intensos",
+"weatherCode.thunderstorm": "Tormenta eléctrica",
+"weatherCode.thunderstormHail": "Tormenta con granizo",
+"weatherCode.heavyThunderstormHail": "Tormenta fuerte con granizo",
+"weatherCode.unknown": "Condición no disponible",
+"status.locationNotFound": "No encontramos esa ciudad en el país seleccionado."
+}
